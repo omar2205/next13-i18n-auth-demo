@@ -1,0 +1,5 @@
+{
+  "title": "This is a protected page",
+  "subtitle": "You need to login to continue",
+  "login": "login"
+}
