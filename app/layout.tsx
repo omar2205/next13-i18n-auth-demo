@@ -38,10 +38,9 @@ async function getSession(cookie: string): Promise<Session | null> {
 
 export default async function RootLayout({ children, params }: RootLayoutProps) {
   const session = await getSession('next-auth.session-token')
-  const { i18n } = await useTranslation(params.lng)
-  console.log(i18n.dir(), params.lng)
+
   return (
-    <html lang={i18n.language} dir={i18n.dir()}>
+    <html>
       <head />
       <body className={dm_sans.variable}>
         <AuthProvider session={session}>
