@@ -2,16 +2,17 @@ lockfileVersion: 5.4
 
 specifiers:
   '@next/font': ^13.0.6
-  '@types/node': 18.11.11
+  '@types/node': 18.11.12
   '@types/react': 18.0.26
   '@types/react-dom': 18.0.9
   accept-language: ^3.0.18
   autoprefixer: ^10.4.13
-  i18next: ^22.1.4
-  i18next-resources-to-backend: ^1.1.0
+  i18next: ^22.1.5
+  i18next-resources-to-backend: ^1.1.1
   konsta: ^1.0.2
   next: 13.0.6
-  next-auth: ^4.18.3
+  next-auth: ^4.18.4
+  next-wayfinder: ^0.0.2
   path-to-regexp: ^6.2.1
   postcss: ^8.4.19
   react: 18.2.0
@@ -22,19 +23,20 @@ specifiers:
 
 dependencies:
   '@next/font': 13.0.6
-  '@types/node': 18.11.11
+  '@types/node': 18.11.12
   '@types/react': 18.0.26
   '@types/react-dom': 18.0.9
   accept-language: 3.0.18
-  i18next: 22.1.4
-  i18next-resources-to-backend: 1.1.0
+  i18next: 22.1.5
+  i18next-resources-to-backend: 1.1.1
   konsta: 1.0.2
   next: 13.0.6_biqbaboplfbrettd7655fr4n2y
-  next-auth: 4.18.3_6jx7hpii6hgsrmhxgqrmo3277u
+  next-auth: 4.18.4_6jx7hpii6hgsrmhxgqrmo3277u
+  next-wayfinder: 0.0.2_next@13.0.6
   path-to-regexp: 6.2.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
-  react-i18next: 12.1.1_uedexzmmdjaqapw3mm5hri2poi
+  react-i18next: 12.1.1_jwe7z4xlygtvpa5yjysgtpzr34
   typescript: 4.9.4
 
 devDependencies:
@@ -207,8 +209,8 @@ packages:
       tslib: 2.4.1
     dev: false
 
-  /@types/node/18.11.11:
-    resolution: {integrity: sha512-KJ021B1nlQUBLopzZmPBVuGU9un7WJd/W4ya7Ih02B4Uwky5Nja0yGYav2EfYIk0RR2Q9oVhf60S2XR1BCWJ2g==}
+  /@types/node/18.11.12:
+    resolution: {integrity: sha512-FgD3NtTAKvyMmD44T07zz2fEf+OKwutgBCEVM8GcvMGVGaDktiLNTDvPwC/LUe3PinMW+X6CuLOF2Ui1mAlSXg==}
     dev: false
 
   /@types/prop-types/15.7.5:
@@ -279,7 +281,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.21.4
-      caniuse-lite: 1.0.30001436
+      caniuse-lite: 1.0.30001439
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -309,7 +311,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001436
+      caniuse-lite: 1.0.30001439
       electron-to-chromium: 1.4.284
       node-releases: 2.0.6
       update-browserslist-db: 1.0.10_browserslist@4.21.4
@@ -320,8 +322,8 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /caniuse-lite/1.0.30001436:
-    resolution: {integrity: sha512-ZmWkKsnC2ifEPoWUvSAIGyOYwT+keAaaWPHiQ9DfMqS1t6tfuyFYoWR78TeZtznkEQ64+vGXH9cZrElwR2Mrxg==}
+  /caniuse-lite/1.0.30001439:
+    resolution: {integrity: sha512-1MgUzEkoMO6gKfXflStpYgZDlFM7M/ck/bgfVCACO5vnAf0fXoNVHdWtqGU+MYca+4bL9Z5bpOVmR33cWW9G2A==}
 
   /chokidar/3.5.3:
     resolution: {integrity: sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==}
@@ -459,14 +461,14 @@ packages:
       void-elements: 3.1.0
     dev: false
 
-  /i18next-resources-to-backend/1.1.0:
-    resolution: {integrity: sha512-h/DhIkFQ2T++MkL+cfbXBPTT9r02Pa1/2zCmbnsEWxB+dwKQYZ3lh1JQintKuK6Kn2nl7ivYJEUtzAI7fDtopw==}
+  /i18next-resources-to-backend/1.1.1:
+    resolution: {integrity: sha512-8RSFzFGy1SKQDkG/Pv6dEWR1H07L6UflAysWXE4z3kdN7pntdncgBQh915/fkphkioRnU00+HYj+r9d92YDH5A==}
     dependencies:
       '@babel/runtime': 7.20.6
     dev: false
 
-  /i18next/22.1.4:
-    resolution: {integrity: sha512-MCDtNRyovLY22rgLoZdCzg2QIza1V1A/3Hxb99akJzTDjcqCRWEsglTpFUt0vUjOxSxz+WmxmFETLHORRS+n6Q==}
+  /i18next/22.1.5:
+    resolution: {integrity: sha512-Mjj45PbpZByE+c6ddLEkkj0LUyzJP1cRGeC/+O6mvp1+GAwW7rIx6aOPW9+Zxe+JO3EcJCAkibwbZrgBRF/qRA==}
     dependencies:
       '@babel/runtime': 7.20.6
     dev: false
@@ -555,8 +557,8 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  /next-auth/4.18.3_6jx7hpii6hgsrmhxgqrmo3277u:
-    resolution: {integrity: sha512-oZrTPnaF7YCMm4T6+FY47+1wHacE7V6YX+MCuvRTZMca7zHAc2WPMdTED6eV3hkqp2znEdilhD4aXQ5BuCpYIw==}
+  /next-auth/4.18.4_6jx7hpii6hgsrmhxgqrmo3277u:
+    resolution: {integrity: sha512-tvXOabxv5U/y6ib56XPkOnc/48tYc+xT6GNOLREIme8WVGYHDTc3CGEfe2+0bVCWAm0ax/GYXH0By5NFoaJDww==}
     engines: {node: ^12.19.0 || ^14.15.0 || ^16.13.0 || ^18.12.0}
     peerDependencies:
       next: ^12.2.5 || ^13
@@ -581,6 +583,16 @@ packages:
       uuid: 8.3.2
     dev: false
 
+  /next-wayfinder/0.0.2_next@13.0.6:
+    resolution: {integrity: sha512-YbhXtAnuH7nzVY3h1ntbiVY3YclrWQLKPPGsq5V39UpPYF/hB/6BAv9E1v1HoPs1IRYYXMa8HoZiMTkX/m4kHg==}
+    peerDependencies:
+      next: ^13.0.6
+    dependencies:
+      next: 13.0.6_biqbaboplfbrettd7655fr4n2y
+      path-to-regexp: 6.2.1
+      type-fest: 3.3.0
+    dev: false
+
   /next/13.0.6_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-COvigvms2LRt1rrzfBQcMQ2GZd86Mvk1z+LOLY5pniFtL4VrTmhZ9salrbKfSiXbhsD01TrDdD68ec3ABDyscA==}
     engines: {node: '>=14.6.0'}
@@ -601,7 +613,7 @@ packages:
     dependencies:
       '@next/env': 13.0.6
       '@swc/helpers': 0.4.14
-      caniuse-lite: 1.0.30001436
+      caniuse-lite: 1.0.30001439
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -803,7 +815,7 @@ packages:
       scheduler: 0.23.0
     dev: false
 
-  /react-i18next/12.1.1_uedexzmmdjaqapw3mm5hri2poi:
+  /react-i18next/12.1.1_jwe7z4xlygtvpa5yjysgtpzr34:
     resolution: {integrity: sha512-mFdieOI0LDy84q3JuZU6Aou1DoWW2fhapcTGeBS8+vWSJuViuoCLQAMYSb0QoHhXS8B0WKUOPpx4cffAP7r/aA==}
     peerDependencies:
       i18next: '>= 19.0.0'
@@ -818,7 +830,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.20.6
       html-parse-stringify: 3.0.1
-      i18next: 22.1.4
+      i18next: 22.1.5
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     dev: false
@@ -947,6 +959,11 @@ packages:
 
   /tslib/2.4.1:
     resolution: {integrity: sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==}
+    dev: false
+
+  /type-fest/3.3.0:
+    resolution: {integrity: sha512-gezeeOIZyQLGW5uuCeEnXF1aXmtt2afKspXz3YqoOcZ3l/YMJq1pujvgT+cz/Nw1O/7q/kSav5fihJHsC/AOUg==}
+    engines: {node: '>=14.16'}
     dev: false
 
   /typescript/4.9.4:
